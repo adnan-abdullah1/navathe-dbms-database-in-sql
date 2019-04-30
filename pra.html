@@ -1,0 +1,100 @@
+<html>
+
+<body>
+    <script> 
+    
+   for (i=0;i<10;i++)
+   {
+    document.write("10*",i,"=",10*i,"<br>");
+   }
+
+   document.write("<br><br><br>")
+    var arr=[]
+  arr =[1,2,3,4,5,6];
+    
+    
+       for (i=0;i<6;i++)
+       {
+           if (arr[i]%2==0)
+           {
+           document.write(arr[i]," is even <br>" );
+           }
+            else
+            {
+                document.write(arr[i]," is odd <br>" );
+            }
+       }
+    var i=1;
+    while(i)
+    {
+       
+        i+=2;
+        if (i==16 | i>30  && i<43 )
+        {  
+            document.write(i," continued  ")
+            continue;
+        }
+        
+        else if(i>55)
+        {
+            break;
+        }
+        document.write(" i= ",i);
+        
+    }
+    document.write("<br><br>");
+
+
+    document.write(" Star pattern 1 <br><br>")
+  
+    for(i=0;i<10;i++)
+    {
+        for(j=0;j<=i;j++)
+        {
+            document.write(" * ");
+        }
+        document.write("<br>");
+    }
+    document.write(" Star pattern 2<br><br>")
+  
+    for(i=0;i<10;i++)
+    {
+        for(j=0;j<=10;j++)
+        {
+            document.write(" * ");
+        }
+        document.write("<br>");
+    }
+    var pri=[];
+    c=0
+    pri=[2,3,4,5,6,7,11,13];
+    for(i=0;i<8;i++)
+    {
+            for (j=2;j<20;j++)
+            {
+                if(pri[i]%j==0)
+                {
+                    c=c+1
+                  
+
+                }
+               
+            
+
+            }
+            if (c>2)
+                {
+                    document.write(i," is not prime<br>")
+                }
+           
+        c=0
+    }
+
+    </script>
+</body>
+
+
+
+
+
+</html>
